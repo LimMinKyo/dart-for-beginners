@@ -1,3 +1,6 @@
 void main() {
-  print('Hello world!');
+  var name = 'ian';
+  int age = 26;
+  print(name);
+  print(age);
 }
