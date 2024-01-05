@@ -1,6 +1,15 @@
 void main() {
-  var name = 'ian';
-  int age = 26;
-  print(name);
-  print(age);
+  dynamic variable;
+
+  variable = 'string';
+
+  if (variable is String) {
+    print(variable.isNotEmpty);
+  }
+
+  variable = 12;
+
+  if (variable is int) {
+    print(variable.isOdd);
+  }
 }
