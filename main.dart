@@ -1,7 +1,7 @@
 void main() {
-  String? name = 'name';
+  final name = 'name';
+  final int age = 26;
 
-  name = null;
-
-  print(name?.isEmpty);
+  print(name);
+  print(age);
 }
