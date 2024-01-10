@@ -1,15 +1,7 @@
 void main() {
-  dynamic variable;
+  String? name = 'name';
 
-  variable = 'string';
+  name = null;
 
-  if (variable is String) {
-    print(variable.isNotEmpty);
-  }
-
-  variable = 12;
-
-  if (variable is int) {
-    print(variable.isOdd);
-  }
+  print(name?.isEmpty);
 }
