@@ -1,7 +1,7 @@
 void main() {
-  final name = 'name';
-  final int age = 26;
+  late final name;
+
+  name = 'name';
 
   print(name);
-  print(age);
 }
