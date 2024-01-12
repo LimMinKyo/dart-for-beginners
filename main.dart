@@ -1,7 +1,5 @@
 void main() {
-  late final name;
+  const API_KEY = 'a1b2c3';
 
-  name = 'name';
-
-  print(name);
+  print(API_KEY);
 }
